@@ -1,0 +1,16 @@
+.heading {
+  height: 30px;
+  background-color: #ddd;
+  opacity: .5;
+  line-height: 25px;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.section {
+  height: 25px;
+  background-color: #f9f9f9;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 4px;
+}
