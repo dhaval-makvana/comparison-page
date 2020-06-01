@@ -1,4 +1,9 @@
-import { FETCH_COMPARISON_DATA, ADD_PRODUCT, REMOVE_PRODUCT, SHOW_ONLY_DIFFERENCE } from "./types";
+import {
+	FETCH_COMPARISON_DATA,
+	ADD_PRODUCT,
+	REMOVE_PRODUCT,
+	SHOW_ONLY_DIFFERENCE,
+} from "./types";
 
 const fetchComparisonData = () => async (dispatch) => {
 	const URL = "http://www.mocky.io/v2/5e9ebdaa2d00007800cb7697";
@@ -21,21 +26,21 @@ const fetchComparisonData = () => async (dispatch) => {
 const addProduct = (id) => async (dispatch) => {
 	return dispatch({
 		type: ADD_PRODUCT,
-		payload: id
-	})
+		payload: id,
+	});
 };
 
 const removeProduct = (id) => async (dispatch) => {
 	return dispatch({
 		type: REMOVE_PRODUCT,
-		payload: id
-	})
+		payload: id,
+	});
 };
 
 const showDifference = () => async (dispatch) => {
 	return dispatch({
-		type: SHOW_ONLY_DIFFERENCE
+		type: SHOW_ONLY_DIFFERENCE,
 	});
-}
+};
 
 export { fetchComparisonData, addProduct, removeProduct, showDifference };

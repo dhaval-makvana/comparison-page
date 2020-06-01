@@ -36,7 +36,6 @@ class App extends React.Component {
 const mapStateToProps = (state) => {
 	const { filter, productDropdown } = state.app;
 	const { products, spec } = filter;
-	console.log("mapStateToProps", state.app);
 	return {
 		products,
 		spec,

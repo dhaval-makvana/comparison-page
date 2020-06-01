@@ -1,0 +1,8 @@
+
+.compareSummary {
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  padding: 4px;
+  font-size: 14px;
+}
