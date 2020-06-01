@@ -15,3 +15,5 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 The app is also hosted on Heroku.
 
 [http://tila-e-commerce.herokuapp.com](http://tila-e-commerce.herokuapp.com)
+
+Note to use http. The app is not available on https.
